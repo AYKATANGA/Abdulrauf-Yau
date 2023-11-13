@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity Donation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><marquee>Charity Donation Website</marquee></h1>
+    </header>
+    <nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </nav>
+    <main>
+        <section>
+            <h2>Donate</h2>
+            <form id="donation-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your E-mail" required>
+            
+                <label for="amount">Donation Amount:</label>
+                <input type="text" id="amount" name="amount" placeholder="Enter donation amount" required>
+            
+                <label for="reason">Reason for Donation:</label>
+                <textarea id="reason" name="reason" placeholder="Enter your reason for donating" rows="4" required></textarea>
+            
+                <button type="submit">Donate</button>
+            </form>
+            
+            
+            
+        </section>
+    </main>
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
